@@ -22,6 +22,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2rem;
     gap: 30%;
 }
 
@@ -29,7 +30,7 @@ header img {
     align-self: center;
     min-width: 100px;
     height: auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     /* margin-left: 2rem; */
 }
 
@@ -38,7 +39,7 @@ header ul {
     list-style-type: none;
     gap: 1rem;
     align-self: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     /* margin-right: 2rem; */
     font-size: larger;
 }
@@ -280,7 +281,7 @@ header ul {
 }
 
 .form1-inp {
-    width: 80%;
+    width: 90%;
     height: 3rem;
     padding: 1rem;
     font-size: 1.2rem;
@@ -291,7 +292,7 @@ header ul {
 
 .form1-btn {
     margin-top: 1rem;
-    width: 80%;
+    width: 90%;
     height: 3rem;
     font-size: 1.3rem;
     background-color: hsl(224, 93%, 58%);
