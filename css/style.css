@@ -22,7 +22,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
     gap: 30%;
 }
 
@@ -364,6 +366,11 @@ footer {
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+    header {
+        justify-content: space-between;
+        padding: 2rem 4rem 2rem 4rem;
+    }
+
     .section {
         display: flex;
         flex-direction: row-reverse;
