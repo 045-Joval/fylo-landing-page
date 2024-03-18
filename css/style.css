@@ -20,9 +20,9 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
+    gap: 30%;
 }
 
 header img {
@@ -30,7 +30,7 @@ header img {
     min-width: 100px;
     height: auto;
     margin-top: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 
 header ul {
@@ -39,7 +39,7 @@ header ul {
     gap: 1rem;
     align-self: center;
     margin-top: 2rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     font-size: larger;
 }
 
@@ -276,7 +276,7 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding: 2rem;
 }
 
 .form1-inp {
